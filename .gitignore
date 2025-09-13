@@ -1,0 +1,15 @@
+*/venv/
+.env
+__pycache__/
+
+# Ignore local virtual environments
+venv/
+.env/
+.env*/
+.envrc
+.venv/
+# Also ignore nested env/ folders
+env/
+**/env/
+**/.venv/
+**/venv/
